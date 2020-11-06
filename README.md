@@ -1,3 +1,3 @@
 # Tentamen
-Uppgift tentamen HTML CSS
-Testar uppdatering till Github
+Uppgift Tentamen för kursen HTML CSS
+Aki Maijala
