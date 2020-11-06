@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(181, 215, 247);
+    font-family: fantasy;
+    font-size: medium;
+}
+
+h1, h2  {
+    text-align: center;
+    color: indigo;
+}
+
+
+.vertical-menu {
+    width: 200px;
+  }
+  
+  .vertical-menu a {
+    background-color: rgb(125, 92, 187);
+    color: black;
+    display: block; 
+    padding: 10px;
+    text-decoration: none;
+
+    
+  }
+  
+  .vertical-menu a:hover {
+    background-color: rgb(159, 126, 172);
+  }
+  
+  .vertical-menu a.active {
+    background-color: #b49dd8;
+    color: rgb(0, 0, 0);
+}
+
+
+.startdiv1  {
+        margin: auto;
+        max-width: 400px;
+        padding-top: 40px;
+        height: 200px;
+        background-color: #cccccc;
+        background-image: radial-gradient(rgb(235, 195, 195), rgb(95, 101, 180));
+        text-align: center;
+        
+}
+
+.input  {
+        margin: auto;
+        max-width: 400px;
+        padding-top: 20px;
+        height: 200px;
+        background-color: #cccccc;
+        background-image: radial-gradient(rgb(235, 195, 195), rgb(95, 101, 180));
+        text-align: center;
+        display: block;
+        height:100px;
+        border: 2px solid rgb(70, 4, 124);
+
+}
+
+
+* {
+    box-sizing: border-box;
+    position: center;
+}
+  
+ol {
+
+    list-style-type: upper-roman;
+    max-width: 400px;
+    padding: 30px;
+    background-color: teal;
+    display: table;
+    margin: 0 auto;
+}
+  
+ol li {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #030303;
+    padding: 12px;
+    background-color: rgb(119, 121, 158);
+    color: rgb(0, 0, 0);
+
+}
+
+
+ul {
+    list-style-type: none;
+    max-width: 400px;
+    padding: 30px;
+    background-color: teal;
+    display: table;
+    margin: 0 auto;
+
+  }
+  
+ul li {
+    list-style-type: none;
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #030303;
+    padding: 12px;
+    background-color: rgb(119, 121, 158);
+
+}
+
+ul li>ol   {
+    list-style: upper-roman;
+}
+
+/* Kunde inte komma på hur jag får in ordnad lista i den oordnade. Hjärnsläpp! //Aki */
