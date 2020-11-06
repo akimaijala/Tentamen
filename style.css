@@ -106,8 +106,38 @@ ul li {
 
 }
 
-ul li>ol   {
+ul li a   {
     list-style: upper-roman;
 }
 
 /* Kunde inte komma på hur jag får in ordnad lista i den oordnade. Hjärnsläpp! //Aki */
+
+
+/* Och jag hade ingen riktig koll på animeringar. Måste jobba mer på detta. // Aki */
+
+#colorBox {
+    width: 300px;
+    height: 200px;
+    background: red;
+    animation: mymove 5s infinite;
+    
+
+  }
+  
+  @keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+    from {flex-grow: inherit;}
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+      }
+      60% {
+        transform: scale(1.2);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1);
+}
+
+}
